@@ -1,0 +1,117 @@
+a {
+  font-family: AktivGrotesk-Light;
+  font-size: 20px;
+  color: #0077FF;
+  line-height: 23px;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: brawler;
+  src: url("brawler.otf");
+}
+
+#logo-text {
+  font-family: brawler;
+  font-size: 28px;
+  color: #00002E;
+  line-height: 34px;
+}
+
+#header {
+  width: 800px;
+  margin: 28px auto 0px auto;
+  padding: 0px 50px;
+}
+
+#logo-cont {
+  margin-bottom: 65px;
+}
+
+#logo-graphic {
+  width: 800px;
+  margin: 0px auto 10px auto;
+}
+
+#logo-text {
+  text-align: center;
+}
+
+#expn-cont {
+  width: 100%;
+}
+
+#expn-text {
+  font-family: brawler;
+  font-size: 17px;
+  color: #000000;
+  letter-spacing: 0.06px;
+  line-height: 29px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-right: 10px;
+}
+
+#expn-button-cont {
+  text-align: justify;
+  font-size: 0.1px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+}
+
+#expn-button-cont:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.expn-buttons {
+  display: inline-block;
+}
+
+#logo-graphic {
+  background: url("../images/owl_bg.png") no-repeat;
+  width: 90px;
+  height: 90px;
+}
+
+#exp-gear {
+  background: url("../images/gear_icon.png") no-repeat;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#exp-info {
+  background: url("../images/info_icon.png") no-repeat;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#exp-puzzle {
+  background: url("../images/puzzle_icon.png") no-repeat;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.expn-link {
+  vertical-align: text-bottom;
+}
+
+#create-lens-text {
+  font-family: Brawler;
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: 0.08px;
+  line-height: 29px;
+}
+
+#create-lens-cont {
+  border-top: 1px solid rgba(151, 151, 151, 0.31);
+  padding-top: 30px;
+}
