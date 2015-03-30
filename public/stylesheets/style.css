@@ -39,6 +39,7 @@ a {
 
 #expn-cont {
   width: 100%;
+  background-color: #ffffff;
 }
 
 #expn-text {
@@ -103,15 +104,43 @@ a {
   vertical-align: text-bottom;
 }
 
+#create-lens-cont {
+  border-top: 1px solid rgba(151, 151, 151, 0.31);
+  padding-top: 30px;
+}
+
 #create-lens-text {
   font-family: Brawler;
   font-size: 22px;
   color: #000000;
   letter-spacing: 0.08px;
-  line-height: 29px;
+  height: 60px;
+  float: left;
+  line-height: 3;
 }
 
-#create-lens-cont {
-  border-top: 1px solid rgba(151, 151, 151, 0.31);
-  padding-top: 30px;
+#create-lens-button {
+  background: #0077FF;
+  border-radius: 40px;
+  float: right;
+  margin-left: 45px;
+  width: 400px;
+  height: 60px;
+}
+
+#create-lens-add-sym {
+  font-family: LucidaGrandeUI;
+  font-size: 28.36px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#create-lens-button-text {
+  font-family: LucidaGrandeUI;
+  font-size: 20.57px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-left: 100px;
+  line-height: 3;
 }
