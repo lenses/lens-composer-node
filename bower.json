@@ -1,0 +1,21 @@
+{
+  "name": "lens-composer-node",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lenses/lens-composer-node",
+  "keywords": "lenses, polymer, web-components",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lens-composer": "lenses/lens-composer"
+  },
+  "resolutions": {
+    "polymer": "~0.5.1"
+  }
+}
